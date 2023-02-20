@@ -16,5 +16,7 @@ def generate_qrcode(text):
     img.save("12345.png")
 
 
-generate_qrcode("#YOURLINK")
+url = input("Enter your url: ")
+generate_qrcode(url)
+
 
